@@ -1,0 +1,29 @@
+.button{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: var(--white);
+
+    border-radius: 66px;
+    padding: 20px;
+    width: 100%;
+    max-width: 263px;
+    transition: 500ms;
+}
+.black-btn{
+    background-color: #1f1f1f;
+    border: 2px solid transparent;
+}
+.black-btn:hover{
+    background-color: #fbce51;
+    color: var(--black);
+}
+.transparent-btn{
+    border: 2px solid #1f1f1f;
+}
+.transparent-btn:hover{
+    background-color: #1f1f1f;
+    color: var(--white);
+}

@@ -1,0 +1,15 @@
+.support {
+}
+.support__top {
+}
+.support__top-title {
+}
+.support__top-picture {
+}
+.support__top-picture-img {
+    position: relative;
+}
+.support__top-picture-img::after {
+    position: absolute;
+    content: '123';
+}
